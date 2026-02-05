@@ -11,4 +11,9 @@ res.send('Welcome to the App');
 app.get('/api/users', (req, res) => {
 res.json({ users: [] });
 });
+
+app.get('/api/products', (req, res) => {
+res.json({ products: [] });
+});
+
 module.exports = app;
